@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources 'countries' do
     collection do
       get :fetch_country_states
+      get :fetch_names
     end
   end
   root 'home#index'

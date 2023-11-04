@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+./bin/importmap pin jquery  (them jquery vao importmap.rb)
+
+./bin/importmap unpin jquery  
+
+./bin/importmap json     (render ra json de import vao html)

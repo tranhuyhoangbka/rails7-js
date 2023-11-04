@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/components' => 'components#index'
   resources 'countries' do
     collection do
       get :fetch_country_states

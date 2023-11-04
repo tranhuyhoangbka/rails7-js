@@ -4,3 +4,4 @@ import "controllers"
 import jQuery from "jquery";
 import "bootstrap"
 jQuery("body").css("background", "#ccc");
+import "components"
